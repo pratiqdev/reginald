@@ -1,0 +1,13 @@
+export declare const __dirname: string;
+export declare const debugMode = false;
+export declare const debugMsg: (...msg: any[]) => void;
+export declare const errorMsg: (...msg: any[]) => void;
+export declare const isDir: (path: string) => boolean;
+export declare const defaultIgnoredPaths: string[];
+declare type T_IteratorCallback = (value: any, index: number, array: any[]) => any;
+export declare const parseEntries: (_object: any, _cb: T_IteratorCallback) => void;
+export declare const parseKeys: (_object: any, _cb: T_IteratorCallback) => void;
+export declare const parseValues: (_object: any, _cb: T_IteratorCallback) => void;
+export declare const noop: () => void;
+export declare const wait: (time?: number) => Promise<unknown>;
+export {};

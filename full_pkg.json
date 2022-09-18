@@ -1,0 +1,1161 @@
+{
+  "file_data": [
+    {
+      "path": "/home/shlep/Documents/code/javascript/reginald/.env",
+      "name": ".env",
+      "type": "env",
+      "size": 21,
+      "atime": "2022-09-18T16:49:45.941Z",
+      "btime": "2022-08-02T18:32:50.669Z",
+      "ctime": "2022-08-02T18:33:02.813Z",
+      "mtime": "2022-08-02T18:33:02.813Z"
+    },
+    {
+      "path": "/home/shlep/Documents/code/javascript/reginald/.gitignore",
+      "name": ".gitignore",
+      "type": "gitignore",
+      "size": 24,
+      "atime": "2022-09-18T15:15:17.461Z",
+      "btime": "2022-09-18T15:14:47.085Z",
+      "ctime": "2022-09-18T15:15:17.429Z",
+      "mtime": "2022-09-18T15:15:17.429Z"
+    },
+    {
+      "path": "/home/shlep/Documents/code/javascript/reginald/index.js",
+      "name": "index.js",
+      "type": "js",
+      "size": 3572,
+      "atime": "2022-09-18T15:56:25.996Z",
+      "btime": "2022-07-13T19:12:30.459Z",
+      "ctime": "2022-09-18T15:56:25.980Z",
+      "mtime": "2022-09-18T15:56:25.980Z"
+    },
+    {
+      "path": "/home/shlep/Documents/code/javascript/reginald/reginaldOutput.md",
+      "name": "reginaldOutput.md",
+      "type": "md",
+      "size": 151,
+      "atime": "2022-09-18T15:50:38.510Z",
+      "btime": "2022-09-18T15:50:38.038Z",
+      "ctime": "2022-09-18T15:50:38.038Z",
+      "mtime": "2022-09-18T15:50:38.038Z"
+    }
+  ],
+  "test_data": {
+    ".env": {
+      "spellchecker": [
+        {
+          "word": "EnvName",
+          "line": 1,
+          "index": 13,
+          "location": "1:13",
+          "suggestions": [
+            "Enamel",
+            "Endgame",
+            "Forename",
+            "Codename",
+            "Envenom",
+            "Envisage"
+          ]
+        }
+      ]
+    },
+    ".gitignore": {
+      "spellchecker": [
+        {
+          "word": "env",
+          "line": 2,
+          "index": 14,
+          "location": "2:14",
+          "suggestions": [
+            "enc",
+            "en",
+            "envy",
+            "ens",
+            "end",
+            "en v",
+            "Enif",
+            "anvil"
+          ]
+        },
+        {
+          "word": "env",
+          "line": 2,
+          "index": 19,
+          "location": "2:19",
+          "suggestions": [
+            "enc",
+            "en",
+            "envy",
+            "ens",
+            "end",
+            "en v",
+            "Enif",
+            "anvil"
+          ]
+        }
+      ]
+    },
+    "index.js": {
+      "spellchecker": [
+        {
+          "word": "reginald",
+          "line": 1,
+          "index": 7,
+          "location": "1:7",
+          "suggestions": [
+            "Reginald",
+            "Reginauld",
+            "regional"
+          ]
+        },
+        {
+          "word": "js",
+          "line": 1,
+          "index": 34,
+          "location": "1:34",
+          "suggestions": [
+            "dis",
+            "ks",
+            "j",
+            "s",
+            "j's",
+            "es",
+            "is",
+            "as",
+            "rs",
+            "ts",
+            "ls",
+            "cs",
+            "us",
+            "jg",
+            "gs"
+          ]
+        },
+        {
+          "word": "const",
+          "line": 2,
+          "index": 47,
+          "location": "2:47",
+          "suggestions": [
+            "cons",
+            "cont",
+            "cost",
+            "coast",
+            "canst",
+            "con st",
+            "con-st",
+            "cons t",
+            "congest",
+            "conceit",
+            "concert"
+          ]
+        },
+        {
+          "word": "setTimeout",
+          "line": 2,
+          "index": 112,
+          "location": "2:112",
+          "suggestions": [
+            "set Timeout",
+            "set-timeout",
+            "timeout",
+            "outsetting",
+            "sometime",
+            "ofttimes",
+            "systematize",
+            "postmortem"
+          ]
+        },
+        {
+          "word": "const",
+          "line": 2,
+          "index": 177,
+          "location": "2:177",
+          "suggestions": [
+            "cons",
+            "cont",
+            "cost",
+            "coast",
+            "canst",
+            "con st",
+            "con-st",
+            "cons t",
+            "congest",
+            "conceit",
+            "concert"
+          ]
+        },
+        {
+          "word": "customOutput",
+          "line": 2,
+          "index": 183,
+          "location": "2:183",
+          "suggestions": [
+            "custom Output",
+            "custom-output",
+            "customhouse",
+            "customary",
+            "customize",
+            "autonomous",
+            "customization",
+            "customarily"
+          ]
+        },
+        {
+          "word": "toLocaleString",
+          "line": 2,
+          "index": 283,
+          "location": "2:283",
+          "suggestions": [
+            "gerontological",
+            "paleontologist",
+            "endocrinologist",
+            "astrological",
+            "recalcitrance",
+            "recalcitrant"
+          ]
+        },
+        {
+          "word": "STRUCT",
+          "line": 2,
+          "index": 313,
+          "location": "2:313",
+          "suggestions": [
+            "STRICT",
+            "STRUT",
+            "STRUCK",
+            "STRUCTURE",
+            "INSTRUCT",
+            "DESTRUCT",
+            "OBSTRUCT"
+          ]
+        },
+        {
+          "word": "forEach",
+          "line": 2,
+          "index": 526,
+          "location": "2:526",
+          "suggestions": [
+            "for Each",
+            "for-each",
+            "forearm",
+            "forehead",
+            "overreach",
+            "forebear",
+            "foreshore",
+            "foreshadow"
+          ]
+        },
+        {
+          "word": "forEach",
+          "line": 2,
+          "index": 721,
+          "location": "2:721",
+          "suggestions": [
+            "for Each",
+            "for-each",
+            "forearm",
+            "forehead",
+            "overreach",
+            "forebear",
+            "foreshore",
+            "foreshadow"
+          ]
+        },
+        {
+          "word": "JSON",
+          "line": 2,
+          "index": 1010,
+          "location": "2:1010",
+          "suggestions": [
+            "SON",
+            "J SON",
+            "JON",
+            "JASON",
+            "JONSON",
+            "JOLSON",
+            "SONJA",
+            "JAYSON",
+            "JASEN"
+          ]
+        },
+        {
+          "word": "stringify",
+          "line": 2,
+          "index": 1015,
+          "location": "2:1015",
+          "suggestions": [
+            "stringing",
+            "stringiness",
+            "stringy",
+            "stringency",
+            "stringent",
+            "stringed"
+          ]
+        },
+        {
+          "word": "const",
+          "line": 2,
+          "index": 1062,
+          "location": "2:1062",
+          "suggestions": [
+            "cons",
+            "cont",
+            "cost",
+            "coast",
+            "canst",
+            "con st",
+            "con-st",
+            "cons t",
+            "congest",
+            "conceit",
+            "concert"
+          ]
+        },
+        {
+          "word": "myCustomReginaldMiddleware",
+          "line": 2,
+          "index": 1068,
+          "location": "2:1068",
+          "suggestions": [
+            "antidisestablishmentarianism",
+            "electroencephalographic"
+          ]
+        },
+        {
+          "word": "async",
+          "line": 2,
+          "index": 1097,
+          "location": "2:1097",
+          "suggestions": [
+            "sync",
+            "a sync",
+            "Cassy",
+            "arsenic",
+            "oceanic"
+          ]
+        },
+        {
+          "word": "middlewareSays",
+          "line": 2,
+          "index": 1157,
+          "location": "2:1157",
+          "suggestions": [
+            "bridleways",
+            "middleweight",
+            "modularization"
+          ]
+        },
+        {
+          "word": "reginald",
+          "line": 2,
+          "index": 1210,
+          "location": "2:1210",
+          "suggestions": [
+            "Reginald",
+            "Reginauld",
+            "regional"
+          ]
+        },
+        {
+          "word": "md",
+          "line": 2,
+          "index": 1249,
+          "location": "2:1249",
+          "suggestions": [
+            "MD",
+            "Md",
+            "ms",
+            "m",
+            "d",
+            "med",
+            "mid",
+            "mad",
+            "mod",
+            "mud",
+            "me",
+            "ed",
+            "mi",
+            "id",
+            "ma"
+          ]
+        },
+        {
+          "word": "outputFile",
+          "line": 2,
+          "index": 1259,
+          "location": "2:1259",
+          "suggestions": [
+            "output File",
+            "output-file",
+            "outputted",
+            "outfielder",
+            "outfield",
+            "outfitter",
+            "adaptively",
+            "outputting"
+          ]
+        },
+        {
+          "word": "reginaldOutput",
+          "line": 2,
+          "index": 1272,
+          "location": "2:1272",
+          "suggestions": [
+            "Reginald",
+            "Reginauld",
+            "originality",
+            "impregnability"
+          ]
+        },
+        {
+          "word": "md",
+          "line": 2,
+          "index": 1287,
+          "location": "2:1287",
+          "suggestions": [
+            "MD",
+            "Md",
+            "ms",
+            "m",
+            "d",
+            "med",
+            "mid",
+            "mad",
+            "mod",
+            "mud",
+            "me",
+            "ed",
+            "mi",
+            "id",
+            "ma"
+          ]
+        },
+        {
+          "word": "outputStruct",
+          "line": 2,
+          "index": 1299,
+          "location": "2:1299",
+          "suggestions": [
+            "outstretch",
+            "outstripped",
+            "constructor",
+            "obstructer",
+            "understructure",
+            "indestructibly"
+          ]
+        },
+        {
+          "word": "customOutput",
+          "line": 2,
+          "index": 1313,
+          "location": "2:1313",
+          "suggestions": [
+            "custom Output",
+            "custom-output",
+            "customhouse",
+            "customary",
+            "customize",
+            "autonomous",
+            "customization",
+            "customarily"
+          ]
+        },
+        {
+          "word": "middleware",
+          "line": 2,
+          "index": 1334,
+          "location": "2:1334",
+          "suggestions": [
+            "middle ware",
+            "middle-ware",
+            "middleweight",
+            "middlebrow",
+            "middleman",
+            "middlemen",
+            "Middlebury",
+            "Delawarean"
+          ]
+        },
+        {
+          "word": "boii",
+          "line": 2,
+          "index": 1367,
+          "location": "2:1367",
+          "suggestions": [
+            "boil",
+            "Bois",
+            "Binni",
+            "Boeotia"
+          ]
+        },
+        {
+          "word": "myCustomReginaldMiddleware",
+          "line": 2,
+          "index": 1374,
+          "location": "2:1374",
+          "suggestions": [
+            "antidisestablishmentarianism",
+            "electroencephalographic"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 1468,
+          "location": "2:1468",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 1663,
+          "location": "2:1663",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 1910,
+          "location": "2:1910",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "reginald",
+          "line": 2,
+          "index": 2079,
+          "location": "2:2079",
+          "suggestions": [
+            "Reginald",
+            "Reginauld",
+            "regional"
+          ]
+        },
+        {
+          "word": "ignorePaths",
+          "line": 2,
+          "index": 2122,
+          "location": "2:2122",
+          "suggestions": [
+            "ignore Paths",
+            "ignore-paths",
+            "ignorantness",
+            "ignorants",
+            "ignores",
+            "reparations",
+            "ignoramus",
+            "ignorance"
+          ]
+        },
+        {
+          "word": "md",
+          "line": 2,
+          "index": 2171,
+          "location": "2:2171",
+          "suggestions": [
+            "MD",
+            "Md",
+            "ms",
+            "m",
+            "d",
+            "med",
+            "mid",
+            "mad",
+            "mod",
+            "mud",
+            "me",
+            "ed",
+            "mi",
+            "id",
+            "ma"
+          ]
+        },
+        {
+          "word": "md",
+          "line": 2,
+          "index": 2196,
+          "location": "2:2196",
+          "suggestions": [
+            "MD",
+            "Md",
+            "ms",
+            "m",
+            "d",
+            "med",
+            "mid",
+            "mad",
+            "mod",
+            "mud",
+            "me",
+            "ed",
+            "mi",
+            "id",
+            "ma"
+          ]
+        },
+        {
+          "word": "ignoreTypes",
+          "line": 2,
+          "index": 2249,
+          "location": "2:2249",
+          "suggestions": [
+            "ignore Types",
+            "ignore-types",
+            "ignorantness",
+            "ignores",
+            "ignorances",
+            "genotypes",
+            "ignoramus",
+            "ignorance"
+          ]
+        },
+        {
+          "word": "md",
+          "line": 2,
+          "index": 2264,
+          "location": "2:2264",
+          "suggestions": [
+            "MD",
+            "Md",
+            "ms",
+            "m",
+            "d",
+            "med",
+            "mid",
+            "mad",
+            "mod",
+            "mud",
+            "me",
+            "ed",
+            "mi",
+            "id",
+            "ma"
+          ]
+        },
+        {
+          "word": "py",
+          "line": 2,
+          "index": 2270,
+          "location": "2:2270",
+          "suggestions": [
+            "pt",
+            "p",
+            "y",
+            "spy",
+            "pay",
+            "pry",
+            "ply",
+            "pi",
+            "pa",
+            "pr",
+            "pl",
+            "pd",
+            "pg",
+            "pm",
+            "my"
+          ]
+        },
+        {
+          "word": "txt",
+          "line": 2,
+          "index": 2276,
+          "location": "2:2276",
+          "suggestions": [
+            "text",
+            "ext",
+            "tit",
+            "tat",
+            "tot",
+            "tut",
+            "TX",
+            "TWX",
+            "TeX"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 2396,
+          "location": "2:2396",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "ayooo",
+          "line": 2,
+          "index": 2403,
+          "location": "2:2403",
+          "suggestions": [
+            "kayo",
+            "mayo",
+            "Mayo",
+            "hooray",
+            "Ayers",
+            "ayahs"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 2574,
+          "location": "2:2574",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "ctx",
+          "line": 2,
+          "index": 2733,
+          "location": "2:2733",
+          "suggestions": [
+            "ct",
+            "ctn",
+            "ctr",
+            "cox",
+            "ct x",
+            "Ct",
+            "CT",
+            "TX",
+            "cortex",
+            "codex"
+          ]
+        },
+        {
+          "word": "CTX",
+          "line": 2,
+          "index": 2742,
+          "location": "2:2742",
+          "suggestions": [
+            "CT",
+            "CTN",
+            "CTR",
+            "COX",
+            "CT X",
+            "TX",
+            "CORTEX",
+            "CODEX"
+          ]
+        },
+        {
+          "word": "JSON",
+          "line": 2,
+          "index": 2750,
+          "location": "2:2750",
+          "suggestions": [
+            "SON",
+            "J SON",
+            "JON",
+            "JASON",
+            "JONSON",
+            "JOLSON",
+            "SONJA",
+            "JAYSON",
+            "JASEN"
+          ]
+        },
+        {
+          "word": "stringify",
+          "line": 2,
+          "index": 2755,
+          "location": "2:2755",
+          "suggestions": [
+            "stringing",
+            "stringiness",
+            "stringy",
+            "stringency",
+            "stringent",
+            "stringed"
+          ]
+        },
+        {
+          "word": "ctx",
+          "line": 2,
+          "index": 2765,
+          "location": "2:2765",
+          "suggestions": [
+            "ct",
+            "ctn",
+            "ctr",
+            "cox",
+            "ct x",
+            "Ct",
+            "CT",
+            "TX",
+            "cortex",
+            "codex"
+          ]
+        },
+        {
+          "word": "CTX",
+          "line": 2,
+          "index": 2773,
+          "location": "2:2773",
+          "suggestions": [
+            "CT",
+            "CTN",
+            "CTR",
+            "COX",
+            "CT X",
+            "TX",
+            "CORTEX",
+            "CODEX"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 2895,
+          "location": "2:2895",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "ctx",
+          "line": 2,
+          "index": 3057,
+          "location": "2:3057",
+          "suggestions": [
+            "ct",
+            "ctn",
+            "ctr",
+            "cox",
+            "ct x",
+            "Ct",
+            "CT",
+            "TX",
+            "cortex",
+            "codex"
+          ]
+        },
+        {
+          "word": "CTX",
+          "line": 2,
+          "index": 3066,
+          "location": "2:3066",
+          "suggestions": [
+            "CT",
+            "CTN",
+            "CTR",
+            "COX",
+            "CT X",
+            "TX",
+            "CORTEX",
+            "CODEX"
+          ]
+        },
+        {
+          "word": "JSON",
+          "line": 2,
+          "index": 3074,
+          "location": "2:3074",
+          "suggestions": [
+            "SON",
+            "J SON",
+            "JON",
+            "JASON",
+            "JONSON",
+            "JOLSON",
+            "SONJA",
+            "JAYSON",
+            "JASEN"
+          ]
+        },
+        {
+          "word": "stringify",
+          "line": 2,
+          "index": 3079,
+          "location": "2:3079",
+          "suggestions": [
+            "stringing",
+            "stringiness",
+            "stringy",
+            "stringency",
+            "stringent",
+            "stringed"
+          ]
+        },
+        {
+          "word": "ctx",
+          "line": 2,
+          "index": 3089,
+          "location": "2:3089",
+          "suggestions": [
+            "ct",
+            "ctn",
+            "ctr",
+            "cox",
+            "ct x",
+            "Ct",
+            "CT",
+            "TX",
+            "cortex",
+            "codex"
+          ]
+        },
+        {
+          "word": "CTX",
+          "line": 2,
+          "index": 3097,
+          "location": "2:3097",
+          "suggestions": [
+            "CT",
+            "CTN",
+            "CTR",
+            "COX",
+            "CT X",
+            "TX",
+            "CORTEX",
+            "CODEX"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 3177,
+          "location": "2:3177",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 3217,
+          "location": "2:3217",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "blap",
+          "line": 2,
+          "index": 3224,
+          "location": "2:3224",
+          "suggestions": [
+            "lap",
+            "slap",
+            "blip",
+            "clap",
+            "blah",
+            "blab",
+            "flap",
+            "b lap",
+            "Lapp",
+            "bleep",
+            "bloop"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 3318,
+          "location": "2:3318",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "regex",
+          "line": 2,
+          "index": 3371,
+          "location": "2:3371",
+          "suggestions": [
+            "reg ex",
+            "reg-ex",
+            "Regen",
+            "renege",
+            "reg",
+            "Reg",
+            "rexes",
+            "recuse"
+          ]
+        },
+        {
+          "word": "ctx",
+          "line": 2,
+          "index": 3475,
+          "location": "2:3475",
+          "suggestions": [
+            "ct",
+            "ctn",
+            "ctr",
+            "cox",
+            "ct x",
+            "Ct",
+            "CT",
+            "TX",
+            "cortex",
+            "codex"
+          ]
+        },
+        {
+          "word": "CTX",
+          "line": 2,
+          "index": 3484,
+          "location": "2:3484",
+          "suggestions": [
+            "CT",
+            "CTN",
+            "CTR",
+            "COX",
+            "CT X",
+            "TX",
+            "CORTEX",
+            "CODEX"
+          ]
+        },
+        {
+          "word": "JSON",
+          "line": 2,
+          "index": 3492,
+          "location": "2:3492",
+          "suggestions": [
+            "SON",
+            "J SON",
+            "JON",
+            "JASON",
+            "JONSON",
+            "JOLSON",
+            "SONJA",
+            "JAYSON",
+            "JASEN"
+          ]
+        },
+        {
+          "word": "stringify",
+          "line": 2,
+          "index": 3497,
+          "location": "2:3497",
+          "suggestions": [
+            "stringing",
+            "stringiness",
+            "stringy",
+            "stringency",
+            "stringent",
+            "stringed"
+          ]
+        },
+        {
+          "word": "ctx",
+          "line": 2,
+          "index": 3507,
+          "location": "2:3507",
+          "suggestions": [
+            "ct",
+            "ctn",
+            "ctr",
+            "cox",
+            "ct x",
+            "Ct",
+            "CT",
+            "TX",
+            "cortex",
+            "codex"
+          ]
+        },
+        {
+          "word": "CTX",
+          "line": 2,
+          "index": 3515,
+          "location": "2:3515",
+          "suggestions": [
+            "CT",
+            "CTN",
+            "CTR",
+            "COX",
+            "CT X",
+            "TX",
+            "CORTEX",
+            "CODEX"
+          ]
+        }
+      ]
+    },
+    "reginaldOutput.md": {
+      "spellchecker": []
+    }
+  },
+  "test_results": {
+    "files": 4,
+    "tests": 0,
+    "failed": 0,
+    "passed": 0,
+    "spellingErrors": null
+  },
+  "meta": {
+    "files_closed": 4
+  }
+}
