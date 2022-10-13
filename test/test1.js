@@ -30,4 +30,26 @@ describe(heading('A | Option testing'), function(){
         
     });
 
+    it('A.2 | Empty reginald should collect all files in root dir', async () => {
+        // let reginaldTest1 = reginald({
+        //     paths: ['files/streamed.md'],
+        // })
+        let res = await reginald({
+            ignoreTypes: ['json'],
+            tests: {
+                'test-a':{
+                    regex: 'f',
+                    max: 2
+                }
+            }
+        })
+        // console.log('-'.repeat(80))
+        console.log(res)
+        
+        
+        
+        
+        
+    });
+
 });

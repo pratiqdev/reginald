@@ -1,70 +1,9 @@
 import reginald from './dist/main.js'
 
 
-export const wait = (time = 1000) =>
-    new Promise((res) => {
-        setTimeout(()=>{
-            res(true)
-        },time)
-    })
-
-
-
-const customOutput = ({data, results, percentage}) => {
-
-let output = 
-`# Reginald Results [ ${new Date().toLocaleString()} ] - (CUSTOM STRUCT!)
-
-${percentage == 100 ? `PASSED: ${percentage}%` : `FAILED: ${percentage}%`}
-
----
-
-Files tested: ${results.files}
-Total tests:  ${results.tests}
-Tests failed: ${results.failed}
-`
-    
-Object.entries(data).forEach(([NAME, DATA]) => {
-    if(Object.entries(DATA).length === 0 || !Object.values(DATA).some((x) => x.condition)) return;
-
-    output += 
-`
----
-
-## ${NAME}
-
-
-    `
-    
-Object.entries(DATA).forEach(([TEST_NAME, TEST_DATA]) => {
-    if(!TEST_DATA || !TEST_DATA.condition) return;
-
-    output += 
-`${TEST_NAME}
-${TEST_DATA.locations.length ?
-    TEST_DATA.locations.map((x, i) => `    ${i+1} - ${x}`).join('\n')
-    : '    No matches'}
-    
-`
-})
-    
-    })
-    output += `\n\n\n${JSON.stringify(results)}`
-    return output
-    
-}
-
-const myCustomReginaldMiddleware = async (data) => {
-    await wait(2000)
-    return {
-        middlewareSays: 'okay'
-    }
-}
-
-
-let reginaldTest1 = reginald({
-    paths: ['files/streamed.md'],
-    outputFile: 'reginaldOutput.md',
+let res = await reginald({
+    paths: ['files'],
+    // outputFile: 'reginaldOutput.md',
     // outputStruct: customOutput,
     // middleware: {
         // 'custom-boii': myCustomReginaldMiddleware
@@ -95,13 +34,13 @@ let reginaldTest1 = reginald({
     }
 })
 
+res.files = []
+console.log(res)
 
 
 // let result = await pkg.test()
 // console.log(result)
 
-
-reginaldTest1.test()
 
 
 

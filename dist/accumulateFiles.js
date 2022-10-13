@@ -170,7 +170,8 @@ const accumulateFiles = async (config = { paths: ['.'] }) => {
             filePathMap.push(file.path);
         }
     });
-    log(`Accumulated files:\n\t - `, uniqueFiles.map(item => item.path).join('\n\t - '));
+    log(`Accumulated files:\n\t - ${uniqueFiles.map(item => item.path).join('\n\t - ')}`);
+    log(`-`.repeat(80));
     // console.log('1 - ACCUMULATE FILES - DONE')
     return uniqueFiles;
 };

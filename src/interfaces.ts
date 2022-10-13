@@ -15,6 +15,8 @@ export interface I_testStruct {
     call?: string[];
 }
 
+
+
 export interface I_testResultsStruct {
     files: number;
     tests: number;
@@ -26,6 +28,7 @@ export interface I_testResultsStruct {
 export interface I_PKGStruct {
     file_data: any[],
     test_data: { [key: string]: any };
+    /** @deprecated use meta values instead */
     test_results: I_testResultsStruct,
     meta: any,
 }
