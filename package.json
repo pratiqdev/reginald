@@ -9,8 +9,9 @@
     "build": "tsc",
     "tst": "nodemon tst.js",
     "runnit": "clear && tsc && DEBUG=reginald:* node index.js",
-    "test":"clear && tsc && mocha",
-    "debug":"clear && tsc && DEBUG=reginald:* mocha"
+    "runnit-quiet": "clear && tsc && node index.js",
+    "test": "clear && tsc && mocha",
+    "debug": "clear && tsc && DEBUG=reginald:* mocha"
   },
   "keywords": [],
   "author": "",
@@ -19,16 +20,20 @@
     "@types/node": "^18.0.0",
     "debug": "^4.3.4",
     "dotenv": "^16.0.1",
+    "eventemitter2": "^6.4.9",
+    "jetty": "^0.2.1",
     "mocha": "^10.0.0",
     "nodemon": "^2.0.18",
     "rw-stream": "^0.3.3",
     "scramjet": "^4.36.7",
     "spellchecker": "^3.7.1",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "underscore": "^1.13.4"
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",
     "@types/spellchecker": "^3.5.0",
+    "@types/underscore": "^1.11.4",
     "chai": "^4.3.6"
   }
 }

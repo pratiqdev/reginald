@@ -220,7 +220,8 @@ const accumulateFiles = async (config: IAccumulateFilesConfig = { paths: ['.'] }
         }
     })
 
-    log(`Accumulated files:\n\t - `, uniqueFiles.map(item => item.path).join('\n\t - '))
+    log(`Accumulated files:\n\t - ${uniqueFiles.map(item => item.path).join('\n\t - ')}`)
+    log(`-`.repeat(80))
 
     // console.log('1 - ACCUMULATE FILES - DONE')
     return uniqueFiles

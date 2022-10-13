@@ -24,6 +24,7 @@ export interface I_PKGStruct {
     test_data: {
         [key: string]: any;
     };
+    /** @deprecated use meta values instead */
     test_results: I_testResultsStruct;
     meta: any;
 }
